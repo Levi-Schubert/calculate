@@ -8,7 +8,7 @@ function subtract(int1, int2){
     console.log(result)
 }
 
-const calculate = (int1, int2, operation) => {
+function calculate(int1, int2, operation){
     operation(int1,int2);
 }
 
